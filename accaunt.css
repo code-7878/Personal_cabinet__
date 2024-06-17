@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Calibri, sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#background{
+    background: #D9D9D9; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 5px; /* Угол */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.no{
+    visibility: hidden;
+}
+
+
+#back{
+    width: 90%;
+    height: 90%;
+    background: #9FB6EF;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 27px;
+    box-shadow: 0 0 0 0.5rem rgba(185, 183, 183, 0.12);
+}
+
+
+.Name{
+    color: #4C13EF;
+    font-size: 40px;
+    height: 20%;
+    width: 70%;
+    position: relative;
+    bottom: 100px;
+    left: 10%;
+
+
+}
+.Price{
+    position: relative;
+    left: 10%;
+    width: 90%;
+
+}
+
+.sum{
+    color: #4C13EF;
+    background: #D9D9D9;
+    width: 500px;
+    height: 300px;
+    border-radius: 21px;
+    font-size: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30%;
+
+}
+#itog{
+    margin-right: 230px;
+
+}
+
+.cost{
+    color: #F61212;
+    background: #D9D9D9;
+    width: 350px;
+    height: 140px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 4px 0px inset;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: 40px;
+
+}
+
+#left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.info{
+    position: relative;
+    left: 400%;
+    vertical-align: middle;
+    display: table-caption;
+    font-size: 40px;
+    color: #734be0;
+    width: 20%;
+}
+
+.month{
+    font-size: 20px;
+    position: relative;
+    right: 20%;
+    left: 80%;
+    color: red;
+    width: 10%;
+}
+
+
+
+
+
